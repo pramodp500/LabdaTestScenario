@@ -4,7 +4,22 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
+
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
-  - init: mvn install -DskipTests=false
+  - init: npm install
+    command: npm run test
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+
 
 
