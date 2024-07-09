@@ -1,0 +1,12 @@
+{
+  "name": "labdatestscenario",
+  "version": "1.0.0",
+  "description": "Execution Steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
